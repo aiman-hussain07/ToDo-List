@@ -16,3 +16,7 @@ Steps used in making this from local to remote repository:
 Instead of always writing "git push origin main", we write "git push -u origin main" i.e. setting origin/ git set-upstream allows you to set the default remote branch for your current local branch. Once one does that, one only needs to write "git push" .
 
 When there is such a change in which only a single file is modified and no new(/untracked) is created, there commit and add can be done together using 'git commit -am "some msg'
+
+# Branch Command
+To navigate : git checkout <-branch name->
+To create new branch : git checkout -b <-new branch name->
