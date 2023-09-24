@@ -11,3 +11,6 @@ Steps used in making this from local to remote repository:
 8. Verifying whether the remote is properly set by command 'git remote -v'.
 9. Check branch using 'git branch'. To rename branch - 'git branch -M main(or any branch name)'.
 10. Push changes to the main(or any branch name) branch, use the command 'git push origin main(or any branch name)'. This step updates the Github repository.
+
+# Some Shortcuts
+Instead of always writing "git push origin main", we write "git push -u origin main" i.e. setting origin. Once one does that, one only needs to write "git push" 
