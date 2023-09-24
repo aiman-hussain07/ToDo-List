@@ -1,5 +1,6 @@
 # To Do List Project
-Was created from local Windows
+Was created from local Windows. 
+Steps used in making this from local to remote repository:
 1. Created new folder in local system(a).
 2. Checked hidden files. No '.git' found. Made this folder into new Git repository by using command 'git init'.
 3. Created relevant files (index.html, README.md etc).
