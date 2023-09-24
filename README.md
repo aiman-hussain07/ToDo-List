@@ -18,5 +18,6 @@ Instead of always writing "git push origin main", we write "git push -u origin m
 When there is such a change in which only a single file is modified and no new(/untracked) is created, there commit and add can be done together using 'git commit -am "some msg'
 
 # Branch Command
-To navigate : git checkout <-branch name->
-To create new branch : git checkout -b <-new branch name->
+1. To navigate : git checkout <-branch name->
+2. To create new branch : git checkout -b <-new branch name->
+3. To delete branch : git branch -d <-branch name->
