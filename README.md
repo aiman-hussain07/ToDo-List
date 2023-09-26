@@ -13,7 +13,7 @@ Steps used in making this from local to remote repository:
 10. Push changes to the main(or any branch name) branch, use the command 'git push origin main(or any branch name)'. This step updates the Github repository.
 
 # Some Shortcuts
-Instead of always writing "git push origin main", we write "git push -u origin main" i.e. setting origin/ git set-upstream allows you to set the default remote branch for your current local branch. Once one does that, one only needs to write "git push" .
+Instead of always writing "git push origin main", we write "git push -u origin main" i.e. setting origin/ git set-upstream allows you to set the default remote branch for your current local branch. Once one does that, one only needs to write "git push" (Local --> GitHub).
 
 When there is such a change in which only a single file is modified and no new(/untracked) is created, there commit and add can be done together using 'git commit -am "some msg'
 
@@ -28,3 +28,6 @@ Create new branch. Do some changes in it. Use command "git push --set-upstream o
 To join two branches (two ways):
 1. Using Git : (a)To compare two branches - git diff <-branch name-> 
                (b)to merge two branches - git merge <-branch name->
+               
+# 
+When changes are done in remote repository using pull request, to reflect those changes in local repository too (Local <-- GitHub), we use "git pull origin main"
