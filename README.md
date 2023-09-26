@@ -21,3 +21,10 @@ When there is such a change in which only a single file is modified and no new(/
 1. To navigate : git checkout <-branch name->
 2. To create new branch : git checkout -b <-new branch name->
 3. To delete branch : git branch -d <-branch name->
+
+# Merging Branches
+Create new branch. Do some changes in it. Use command "git push --set-upstream origin feature" to set upstream branch in this new branch (in order to use shortcuts such as "git push" etc).
+
+To join two branches (two ways):
+1. Using Git : (a)To compare two branches - git diff <-branch name-> 
+               (b)to merge two branches - git merge <-branch name->
