@@ -31,3 +31,14 @@ To join two branches (two ways):
                
 # 
 When changes are done in remote repository using pull request, to reflect those changes in local repository too (Local <-- GitHub), we use "git pull origin main"
+
+# Fixing Mistakes
+Case 1 : To undo staged (added) changes 
+a. for single file - "git reset <-filename->"
+b. for multiple changes - "git reset"
+
+Case 2 : To undo commited changes (for one commit) - "git reset HEAD~1"
+
+Case 3: To undo commited changes (for many commits) 
+a. to undo single commit along the "git log" list and not affect other changes down in the list next to the said commit - "git reset <-commit hash->" 
+b. to delete all the commits after <-commit hash-> and point to <-commit hash-> - "git reset --hard <-commit hash->"
